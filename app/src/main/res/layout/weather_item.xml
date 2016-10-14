@@ -33,4 +33,43 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low"
+            style="@style/smallText"/>
+
+        <TextView
+            android:id="@+id/minTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Min Temp"
+            style="@style/smallText" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - "
+            style="@style/smallText"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High"
+            style="@style/smallText"/>
+
+        <TextView
+            android:id="@+id/maxTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Max Temp"
+            style="@style/smallText"/>
+
+    </LinearLayout>
+
 </LinearLayout>
